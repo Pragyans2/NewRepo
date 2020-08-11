@@ -13,9 +13,24 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "infra.ioc", "infra.ioc", "{
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{5D38A4DD-2101-4FFF-BD15-F317156166F5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microservice.domain.core", "Microservice.domain.core\Microservice.domain.core.csproj", "{CED42608-4538-4820-94E5-4DA8BBF029C6}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CED42608-4538-4820-94E5-4DA8BBF029C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CED42608-4538-4820-94E5-4DA8BBF029C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CED42608-4538-4820-94E5-4DA8BBF029C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CED42608-4538-4820-94E5-4DA8BBF029C6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CED42608-4538-4820-94E5-4DA8BBF029C6} = {7595236C-0879-42AE-A1F3-A056417146C1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {00F7A809-7879-46B7-9B99-0000CEFA6488}
