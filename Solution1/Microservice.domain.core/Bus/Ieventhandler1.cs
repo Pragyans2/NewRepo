@@ -1,6 +1,8 @@
-﻿namespace Microservice.domain.core.Bus
+﻿using Microservice.domain.core.Events;
+
+namespace Microservice.domain.core.Bus
 {
-    public interface Ieventhandler
+    public interface IEventHandler<T> where T : Event
     {
     }
 }
